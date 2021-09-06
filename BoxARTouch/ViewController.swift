@@ -23,10 +23,41 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         sceneView.showsStatistics = true
         
         // Create a new scene
-        let scene = SCNScene(named: "art.scnassets/ship.scn")!
+        let scene = SCNScene()
+        
+//        boxの中身の記述。1で1m、chamferRadiusは角の丸み
+        let box = SCNBox(width: 0.2, height: 0.2, length: 0.2, chamferRadius: 0)
+        
+        let material = SCNMaterial()
+        material.name = "Color"
+        material.diffuse.contents = UIColor.red //diffuse.contentsで色指定
+        
+//        Node作成
+        let node = SCNNode()
+        node.geometry = box                      //形をBOX（四角）に、スフィアで円
+        node.geometry?.materials = [material]    //上のマテリアルを呼び出し
+        node.position = SCNVector3(0, 0.2, -0.5) //3次元空間の座標指定 起動したiphoneから見た位置
+        
+        scene.rootNode.addChildNode(node)        //一番上のnodeに追加
+        
+        let tapRecognizer = UITapGestureRecognizer(target: self, action: #selector(tapped)) //タップした時の挙動を指定
+        self.sceneView.addGestureRecognizer(tapRecognizer)  //シーンビューにtapRecognizerを追加(add~でタップ時の挙動、内容をtapに指定)
         
         // Set the scene to the view
         sceneView.scene = scene
+    }
+    
+    @objc func tapped(recognizer: UIGestureRecognizer) {            //42行目のtappedの関数を作成
+        let sceneView = recognizer.view as! SCNView                 //タップされたオブジェクトのシーンを取得
+        let touchLocation = recognizer.location(in: sceneView)      //タッチした座標を返す定数を定義、シーンビューの中でタッチされた座標
+        let hitResults = sceneView.hitTest(touchLocation, options: [:]) //タッチしたデータを返す。ヒットメソッドで
+        
+        if !hitResults.isEmpty {                                    //hitResultsが空でなければ
+            let node = hitResults[0].node                           //
+            let material = node.geometry?.material(named: "Color")
+            material?.diffuse.contents = UIColor.blue               //表面の色を指定
+        }
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
