@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7956E40326E5AA8A004DE295 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7956E40226E5AA8A004DE295 /* AppDelegate.swift */; };
+		7956E40526E5AA8A004DE295 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 7956E40426E5AA8A004DE295 /* art.scnassets */; };
+		7956E40726E5AA8A004DE295 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7956E40626E5AA8A004DE295 /* ViewController.swift */; };
+		7956E40A26E5AA8A004DE295 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7956E40826E5AA8A004DE295 /* Main.storyboard */; };
+		7956E40C26E5AA8B004DE295 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7956E40B26E5AA8B004DE295 /* Assets.xcassets */; };
+		7956E40F26E5AA8B004DE295 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7956E40D26E5AA8B004DE295 /* LaunchScreen.storyboard */; };
+		7956E41A26E5AA8B004DE295 /* BoxARTouchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7956E41926E5AA8B004DE295 /* BoxARTouchTests.swift */; };
+		7956E42526E5AA8B004DE295 /* BoxARTouchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7956E42426E5AA8B004DE295 /* BoxARTouchUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7956E41626E5AA8B004DE295 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7956E3F726E5AA8A004DE295 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7956E3FE26E5AA8A004DE295;
+			remoteInfo = BoxARTouch;
+		};
+		7956E42126E5AA8B004DE295 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7956E3F726E5AA8A004DE295 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7956E3FE26E5AA8A004DE295;
+			remoteInfo = BoxARTouch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7956E3FF26E5AA8A004DE295 /* BoxARTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoxARTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7956E40226E5AA8A004DE295 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7956E40426E5AA8A004DE295 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		7956E40626E5AA8A004DE295 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7956E40926E5AA8A004DE295 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7956E40B26E5AA8B004DE295 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7956E40E26E5AA8B004DE295 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7956E41026E5AA8B004DE295 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7956E41526E5AA8B004DE295 /* BoxARTouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoxARTouchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7956E41926E5AA8B004DE295 /* BoxARTouchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxARTouchTests.swift; sourceTree = "<group>"; };
+		7956E41B26E5AA8B004DE295 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7956E42026E5AA8B004DE295 /* BoxARTouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoxARTouchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7956E42426E5AA8B004DE295 /* BoxARTouchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxARTouchUITests.swift; sourceTree = "<group>"; };
+		7956E42626E5AA8B004DE295 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7956E3FC26E5AA8A004DE295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7956E41226E5AA8B004DE295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7956E41D26E5AA8B004DE295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7956E3F626E5AA8A004DE295 = {
+			isa = PBXGroup;
+			children = (
+				7956E40126E5AA8A004DE295 /* BoxARTouch */,
+				7956E41826E5AA8B004DE295 /* BoxARTouchTests */,
+				7956E42326E5AA8B004DE295 /* BoxARTouchUITests */,
+				7956E40026E5AA8A004DE295 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7956E40026E5AA8A004DE295 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7956E3FF26E5AA8A004DE295 /* BoxARTouch.app */,
+				7956E41526E5AA8B004DE295 /* BoxARTouchTests.xctest */,
+				7956E42026E5AA8B004DE295 /* BoxARTouchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7956E40126E5AA8A004DE295 /* BoxARTouch */ = {
+			isa = PBXGroup;
+			children = (
+				7956E40226E5AA8A004DE295 /* AppDelegate.swift */,
+				7956E40426E5AA8A004DE295 /* art.scnassets */,
+				7956E40626E5AA8A004DE295 /* ViewController.swift */,
+				7956E40826E5AA8A004DE295 /* Main.storyboard */,
+				7956E40B26E5AA8B004DE295 /* Assets.xcassets */,
+				7956E40D26E5AA8B004DE295 /* LaunchScreen.storyboard */,
+				7956E41026E5AA8B004DE295 /* Info.plist */,
+			);
+			path = BoxARTouch;
+			sourceTree = "<group>";
+		};
+		7956E41826E5AA8B004DE295 /* BoxARTouchTests */ = {
+			isa = PBXGroup;
+			children = (
+				7956E41926E5AA8B004DE295 /* BoxARTouchTests.swift */,
+				7956E41B26E5AA8B004DE295 /* Info.plist */,
+			);
+			path = BoxARTouchTests;
+			sourceTree = "<group>";
+		};
+		7956E42326E5AA8B004DE295 /* BoxARTouchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7956E42426E5AA8B004DE295 /* BoxARTouchUITests.swift */,
+				7956E42626E5AA8B004DE295 /* Info.plist */,
+			);
+			path = BoxARTouchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7956E3FE26E5AA8A004DE295 /* BoxARTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7956E42926E5AA8B004DE295 /* Build configuration list for PBXNativeTarget "BoxARTouch" */;
+			buildPhases = (
+				7956E3FB26E5AA8A004DE295 /* Sources */,
+				7956E3FC26E5AA8A004DE295 /* Frameworks */,
+				7956E3FD26E5AA8A004DE295 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BoxARTouch;
+			productName = BoxARTouch;
+			productReference = 7956E3FF26E5AA8A004DE295 /* BoxARTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7956E41426E5AA8B004DE295 /* BoxARTouchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7956E42C26E5AA8B004DE295 /* Build configuration list for PBXNativeTarget "BoxARTouchTests" */;
+			buildPhases = (
+				7956E41126E5AA8B004DE295 /* Sources */,
+				7956E41226E5AA8B004DE295 /* Frameworks */,
+				7956E41326E5AA8B004DE295 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7956E41726E5AA8B004DE295 /* PBXTargetDependency */,
+			);
+			name = BoxARTouchTests;
+			productName = BoxARTouchTests;
+			productReference = 7956E41526E5AA8B004DE295 /* BoxARTouchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7956E41F26E5AA8B004DE295 /* BoxARTouchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7956E42F26E5AA8B004DE295 /* Build configuration list for PBXNativeTarget "BoxARTouchUITests" */;
+			buildPhases = (
+				7956E41C26E5AA8B004DE295 /* Sources */,
+				7956E41D26E5AA8B004DE295 /* Frameworks */,
+				7956E41E26E5AA8B004DE295 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7956E42226E5AA8B004DE295 /* PBXTargetDependency */,
+			);
+			name = BoxARTouchUITests;
+			productName = BoxARTouchUITests;
+			productReference = 7956E42026E5AA8B004DE295 /* BoxARTouchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7956E3F726E5AA8A004DE295 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					7956E3FE26E5AA8A004DE295 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					7956E41426E5AA8B004DE295 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 7956E3FE26E5AA8A004DE295;
+					};
+					7956E41F26E5AA8B004DE295 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 7956E3FE26E5AA8A004DE295;
+					};
+				};
+			};
+			buildConfigurationList = 7956E3FA26E5AA8A004DE295 /* Build configuration list for PBXProject "BoxARTouch" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7956E3F626E5AA8A004DE295;
+			productRefGroup = 7956E40026E5AA8A004DE295 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7956E3FE26E5AA8A004DE295 /* BoxARTouch */,
+				7956E41426E5AA8B004DE295 /* BoxARTouchTests */,
+				7956E41F26E5AA8B004DE295 /* BoxARTouchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7956E3FD26E5AA8A004DE295 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7956E40526E5AA8A004DE295 /* art.scnassets in Resources */,
+				7956E40F26E5AA8B004DE295 /* LaunchScreen.storyboard in Resources */,
+				7956E40C26E5AA8B004DE295 /* Assets.xcassets in Resources */,
+				7956E40A26E5AA8A004DE295 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7956E41326E5AA8B004DE295 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7956E41E26E5AA8B004DE295 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7956E3FB26E5AA8A004DE295 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7956E40726E5AA8A004DE295 /* ViewController.swift in Sources */,
+				7956E40326E5AA8A004DE295 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7956E41126E5AA8B004DE295 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7956E41A26E5AA8B004DE295 /* BoxARTouchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7956E41C26E5AA8B004DE295 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7956E42526E5AA8B004DE295 /* BoxARTouchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7956E41726E5AA8B004DE295 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7956E3FE26E5AA8A004DE295 /* BoxARTouch */;
+			targetProxy = 7956E41626E5AA8B004DE295 /* PBXContainerItemProxy */;
+		};
+		7956E42226E5AA8B004DE295 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7956E3FE26E5AA8A004DE295 /* BoxARTouch */;
+			targetProxy = 7956E42126E5AA8B004DE295 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7956E40826E5AA8A004DE295 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7956E40926E5AA8A004DE295 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7956E40D26E5AA8B004DE295 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7956E40E26E5AA8B004DE295 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7956E42726E5AA8B004DE295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7956E42826E5AA8B004DE295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7956E42A26E5AA8B004DE295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S8775YNK76;
+				INFOPLIST_FILE = BoxARTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.vivi.v.valentine.BoxARTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7956E42B26E5AA8B004DE295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S8775YNK76;
+				INFOPLIST_FILE = BoxARTouch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.vivi.v.valentine.BoxARTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7956E42D26E5AA8B004DE295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S8775YNK76;
+				INFOPLIST_FILE = BoxARTouchTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.vivi.v.valentine.BoxARTouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoxARTouch.app/BoxARTouch";
+			};
+			name = Debug;
+		};
+		7956E42E26E5AA8B004DE295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S8775YNK76;
+				INFOPLIST_FILE = BoxARTouchTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.vivi.v.valentine.BoxARTouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BoxARTouch.app/BoxARTouch";
+			};
+			name = Release;
+		};
+		7956E43026E5AA8B004DE295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S8775YNK76;
+				INFOPLIST_FILE = BoxARTouchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.vivi.v.valentine.BoxARTouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BoxARTouch;
+			};
+			name = Debug;
+		};
+		7956E43126E5AA8B004DE295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S8775YNK76;
+				INFOPLIST_FILE = BoxARTouchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = jp.vivi.v.valentine.BoxARTouchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BoxARTouch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7956E3FA26E5AA8A004DE295 /* Build configuration list for PBXProject "BoxARTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7956E42726E5AA8B004DE295 /* Debug */,
+				7956E42826E5AA8B004DE295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7956E42926E5AA8B004DE295 /* Build configuration list for PBXNativeTarget "BoxARTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7956E42A26E5AA8B004DE295 /* Debug */,
+				7956E42B26E5AA8B004DE295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7956E42C26E5AA8B004DE295 /* Build configuration list for PBXNativeTarget "BoxARTouchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7956E42D26E5AA8B004DE295 /* Debug */,
+				7956E42E26E5AA8B004DE295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7956E42F26E5AA8B004DE295 /* Build configuration list for PBXNativeTarget "BoxARTouchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7956E43026E5AA8B004DE295 /* Debug */,
+				7956E43126E5AA8B004DE295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7956E3F726E5AA8A004DE295 /* Project object */;
+}
